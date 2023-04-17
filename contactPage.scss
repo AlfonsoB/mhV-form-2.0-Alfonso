@@ -1,0 +1,25 @@
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.form-group {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.form-group label {
+  margin-right: 1rem;
+  flex-basis: 30%;
+  text-align: right;
+}
+
+.form-group input {
+  width: 100%;
+  //padding: 12px 20px;
+  //margin: 8px 0;
+  box-sizing: border-box;
+  flex-basis: 70%;
+}
